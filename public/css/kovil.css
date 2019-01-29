@@ -1,0 +1,132 @@
+/*
+ |--------------------------------------------------------------------------
+ | Contents
+ |--------------------------------------------------------------------------
+ |
+ | 1.Root Variables
+ | 2.Material Design Icons
+ | 3.Helpers
+ | 4.Status Section
+ | 5.Layouts
+ | 6.Navbar
+ | 7.Media Query For Navbar
+ | 8.Nav Pills
+ | 9.Sidebar
+ | 10.USM Card
+ | 11.Table
+ | 12.Ticket Details
+ | 13.Media Query For Network Security
+ | 14.Media Query For Setting
+ | 15.Media Query For USM Card
+ |
+ */
+
+/* 1.Root Variables */
+:root {
+    --body-bg: #e2e3ea;
+    --border: #cacbd8;
+    --card-header: #f3f4f9;
+    --card-header-text: #5c6070;
+    --grey-darken: #2b2b2b;
+    --primary-color: #f63334;
+    --grey-lighten: #a9aab4;
+    --blue: #2781fd;
+    --yellow: #efb21f;
+    --green: #26ae43;
+    --orange: #ff6d03;
+    --blue-text: #2781fd;
+    --yellow-text: #efb21f;
+    --green-text: #26ae43;
+    --orange-text: #ff6d03;
+  
+    --light: 300;
+    --regular: 400;
+    --bold: 600;
+  }
+  
+  body {
+    background: #f5f6fa;
+  }
+  
+  /* Side Panel */
+  aside {
+      width:55px;
+      height:100%;
+      background: #06131a;
+      position: fixed; 
+      top:0;
+      box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+  }
+  
+  aside ul {
+      padding: 0;
+      margin: 0;
+  }
+  
+  aside ul li {
+      padding: 15px 14px;
+      color: #eef1f5;
+      margin-bottom: 7px;
+      cursor: pointer;
+  }
+  
+  aside ul li:hover {
+      border-left: 3px #53a6e0 solid; 
+      background: linear-gradient(90deg, rgba(0,0,255,1) 0%, rgba(242,242,242,0.15) 0%);
+  }
+  
+  aside ul li:first-child {
+      background-color: #2b9df0; 
+      border: none;   
+  }
+  
+  aside ul li:first-child:hover i {
+    color: #FFF;  
+  }
+  
+  aside ul li a {
+      color: #eef1f5 !important;
+  }
+  
+  aside ul li a i {
+      font-size: 1.7em !important;
+      vertical-align: middle;
+      color: #eef1f5 !important;
+  }
+  
+  aside ul li:hover a,
+  aside ul li:hover a i {
+      color: #2b9df0 !important;
+      font-weight: bold;
+  }
+
+  aside ul li:hover a.unhover,
+  aside ul li:hover a.unhover i {
+      color: #fff !important;
+      font-weight: bold;
+      cursor: no-drop;
+  }
+  
+  header, main {
+      padding-left: 55px;
+  }
+    
+  header .navbar {
+      background-color: #fff !important;
+      box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+  }
+  
+  header .navbar .navbar-brand {
+     color: #030405 !important;
+     font-weight: 400;
+  }
+
+  .k-card {
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+  }
+
+  .pointer {
+      cursor: pointer;
+  }
